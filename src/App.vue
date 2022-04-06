@@ -3,24 +3,23 @@ import AdviceVue from "./components/Advice.vue";
 </script>
 
 <template>
-  <AdviceVue />
+  <main class="main">
+    <a target="_blank" href="https://github.com/folorunsho-tech/advice-gen"
+      >View Code here-->></a
+    >
+    <AdviceVue />
+  </main>
 </template>
 
 <style>
-nav {
-  padding: 1rem 0.5rem;
-}
-.profile {
-  float: right;
+.main {
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+}
+.main > a {
+  color: white;
   text-align: center;
-  color: black;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: hsl(150, 100%, 66%);
-  object-fit: cover;
+  padding-top: 2rem;
 }
 </style>

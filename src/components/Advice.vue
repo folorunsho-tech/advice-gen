@@ -24,14 +24,14 @@ onMounted(async () => {
 .advice {
   display: flex;
   flex-direction: column;
-  margin: 8rem auto;
+  margin: 6rem auto;
   gap: 0.8rem;
   justify-content: center;
   padding: 1rem 1.5rem;
   text-align: center;
   background-color: hsl(217, 19%, 24%);
   max-width: 300px;
-  height: 300px;
+  min-height: 330px;
   border-radius: 12px;
   position: relative;
 }
